@@ -10,7 +10,7 @@ File.open('Makefile', 'wt')do |f|
   f.print mf
   f.print <<END
 all::
-	$(MAKE) all -C tidy-html5/build/gmake
+	$(MAKE) all -C #{File.expand_path(File.join(File.dirname(__FILE__), 'tidy-html5', 'build', 'gmake'))}
 
 install::
 	cp tidy-html5/bin/tidy ../bin/
