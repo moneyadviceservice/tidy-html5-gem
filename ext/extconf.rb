@@ -13,6 +13,6 @@ all::
 	$(MAKE) all -C #{File.expand_path(File.join(File.dirname(__FILE__), 'tidy-html5', 'build', 'gmake'))}
 
 install::
-	cp tidy-html5/bin/tidy ../bin/
+	cp tidy-html5/bin/tidy ../bin/tidy-bin
 END
 end

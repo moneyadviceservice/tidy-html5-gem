@@ -9,5 +9,5 @@ Gem::Specification.new do |s|
   s.files       = Dir['ext/**/*']
   s.homepage    = 'https://github.com/stevenwilkin/tidy-html5-gem'
   s.extensions  = ['ext/extconf.rb']
-  s.executables = ['tidy'] 
+  s.executables = ['tidy']
 end

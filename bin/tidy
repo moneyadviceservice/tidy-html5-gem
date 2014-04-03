@@ -1,4 +1,6 @@
-#!/bin/bash
+#!/usr/bin/env ruby
 
-echo "Placeholder executable for tidy, should never be run"
-exit 1
+bin = File.expand_path(File.join(File.dirname(__FILE__), 'tidy-bin'))
+args = $*.join(' ')
+
+system bin, args
