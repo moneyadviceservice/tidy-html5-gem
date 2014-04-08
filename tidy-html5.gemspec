@@ -10,4 +10,5 @@ Gem::Specification.new do |s|
   s.homepage    = 'https://github.com/moneyadviceservice/tidy-html5-gem'
   s.extensions  = ['ext/extconf.rb']
   s.executables = ['tidy']
+  s.add_development_dependency 'rake'
 end
