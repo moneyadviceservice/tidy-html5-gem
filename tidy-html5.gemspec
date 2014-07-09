@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'tidy-html5'
-  s.version     = '0.1.0'
+  s.version     = '0.1.1'
   s.licenses    = ['MIT']
   s.summary     = 'Installer for HTML5 version of Tidy'
   s.description = 'Compiles and installs the experimental fork of Tidy for HTML5 documents'
