@@ -120,7 +120,7 @@ LIBSUFFIX = .a
 OBJSUF = .o
 
 LIBRARY = $(LIBDIR)/$(LIBPREFIX)$(PROJECT)$(LIBSUFFIX)
-AR=ar -r
+AR=ar -s -r
 
 XSLTPROC = xsltproc
 
